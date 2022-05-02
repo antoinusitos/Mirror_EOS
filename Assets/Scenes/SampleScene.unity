@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 392085179}
   - component: {fileID: 392085178}
   - component: {fileID: 392085176}
-  - component: {fileID: 392085175}
+  - component: {fileID: 392085177}
   m_Layer: 0
   m_Name: EOS
   m_TagString: Untagged
@@ -229,20 +229,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &392085175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 392085174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6442dc8070ceb41f094e44de0bf87274, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  offsetX: 0
-  offsetY: 0
 --- !u!114 &392085176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -260,6 +246,20 @@ MonoBehaviour:
   maxFragments: 55
   ignoreCachedMessagesAtStartUpInSeconds: 2
   relayControl: 1
+--- !u!114 &392085177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392085174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db5efa10489208a44a5e560cc56f93ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AttributeKeys:
+  - lobby_name
 --- !u!114 &392085178
 MonoBehaviour:
   m_ObjectHideFlags: 0
